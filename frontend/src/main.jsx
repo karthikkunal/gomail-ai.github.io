@@ -4,7 +4,7 @@ import { Shield, Upload, Activity, AlertTriangle, FileText, Search, Globe, Serve
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
+const API = import.meta.env.VITE_API_BASE || 'https://gomail-ai-github-io.onrender.com';
 
 function App(){
   const [result,setResult]=useState(null); const [loading,setLoading]=useState(false); const [error,setError]=useState('');
