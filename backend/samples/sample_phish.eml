@@ -1,0 +1,18 @@
+From: Microsoft Security <security-alert@microsoft-support-login.example>
+To: victim@example.com
+Subject: Urgent: Your mailbox password will expire today
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=microsoft-support-login.example; dkim=fail; dmarc=fail
+Return-Path: <bounce@random-mailer.example>
+Date: Thu, 9 Jul 2026 10:00:00 +0530
+Message-ID: <fake-123@example>
+Content-Type: text/plain; charset="utf-8"
+
+Dear user,
+
+Your Microsoft 365 mailbox has been blocked due to suspicious login activity. Verify your password and MFA OTP immediately to avoid suspension.
+
+Click here: https://bit.ly/secure-mailbox-verify
+Backup link: http://login-microsoft-security.example/reset?user=victim@example.com
+
+Regards,
+Security Team
